@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Acadamy.E2EProject.HomePage">
+        <methods>
+          <include name="DriverInitilize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Acadamy.E2EProject.HomePage -->
+      <class name="Acadamy.E2EProject.ValidateLinks">
+        <methods>
+          <include name="DriverInitilize"/>
+          <include name="HomepageLinks"/>
+        </methods>
+      </class> <!-- Acadamy.E2EProject.ValidateLinks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

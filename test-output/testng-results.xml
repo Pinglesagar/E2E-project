@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-31T17:54:49 IST" name="Suite" finished-at="2022-07-31T17:55:14 IST" duration-ms="25055">
+    <groups>
+    </groups>
+    <test started-at="2022-07-31T17:54:49 IST" name="Test" finished-at="2022-07-31T17:55:14 IST" duration-ms="25055">
+      <class name="Acadamy.E2EProject.ValidateLinks">
+        <test-method is-config="true" signature="DriverInitilize()[pri:0, instance:Acadamy.E2EProject.ValidateLinks@72e5a8e]" started-at="2022-07-31T17:54:49 IST" name="DriverInitilize" finished-at="2022-07-31T17:54:56 IST" duration-ms="7269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInitilize -->
+        <test-method signature="HomepageLinks()[pri:0, instance:Acadamy.E2EProject.ValidateLinks@72e5a8e]" started-at="2022-07-31T17:54:56 IST" name="HomepageLinks" finished-at="2022-07-31T17:54:56 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageLinks -->
+        <test-method is-config="true" signature="DriverClose()[pri:0, instance:Acadamy.E2EProject.ValidateLinks@72e5a8e]" started-at="2022-07-31T17:54:57 IST" name="DriverClose" finished-at="2022-07-31T17:54:57 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverClose -->
+      </class> <!-- Acadamy.E2EProject.ValidateLinks -->
+      <class name="Acadamy.E2EProject.HomePage">
+        <test-method is-config="true" signature="DriverInitilize()[pri:0, instance:Acadamy.E2EProject.HomePage@29215f06]" started-at="2022-07-31T17:54:49 IST" name="DriverInitilize" finished-at="2022-07-31T17:54:49 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInitilize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Acadamy.E2EProject.HomePage@29215f06]" started-at="2022-07-31T17:54:49 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-31T17:55:02 IST" duration-ms="12695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Acadamy.E2EProject.HomePage@29215f06]" started-at="2022-07-31T17:55:02 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-31T17:55:10 IST" duration-ms="8186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="DriverClose()[pri:0, instance:Acadamy.E2EProject.HomePage@29215f06]" started-at="2022-07-31T17:55:10 IST" name="DriverClose" finished-at="2022-07-31T17:55:14 IST" duration-ms="4112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverClose -->
+      </class> <!-- Acadamy.E2EProject.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
